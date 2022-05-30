@@ -13,7 +13,7 @@ public property to_int(BigUint self, uint i) -> (int r):
     if i >= |self|:
         return 0
     else:
-        int ith = self[i] * (2**i) // shift left
+        int ith = self[i] * (256**i) // shift left
         return ith + to_int(self,i+1)
 
 public function add(BigUint lhs, BigUint rhs) -> (BigUint r)
