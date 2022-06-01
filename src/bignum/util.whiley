@@ -1,6 +1,6 @@
 package bignum
 
-import u8, u16, uint from std::integer
+import u8, u16, uint from std::int
 public type u1 is (int x) where 0 <= x && x <= 1
 
 // Add with carry

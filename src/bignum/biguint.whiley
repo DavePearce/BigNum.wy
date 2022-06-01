@@ -1,6 +1,6 @@
 package bignum
 
-import u8, u16, uint from std::integer
+import u8, u16, uint from std::int
 import std::array
 import bignum::util with u1
 
